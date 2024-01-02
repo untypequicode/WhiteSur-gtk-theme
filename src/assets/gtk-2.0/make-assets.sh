@@ -77,7 +77,7 @@ for theme in '' '-blue' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-
       cp -rf "assets${color}.svg" "assets${color}${theme}${type}.svg"
       sed -i "s/#0860F2/${theme_color}/g" "assets${color}${theme}${type}.svg"
       if [[ "$color" == '-Dark' ]]; then
-        sed -i "s/#333333/${bg_color}/g" "assets${color}${theme}${type}.svg"
+        sed -i "s/#0f0f0f/${bg_color}/g" "assets${color}${theme}${type}.svg"
         sed -i "s/#242424/${base_color}/g" "assets${color}${theme}${type}.svg"
       else
         sed -i "s/#f5f5f5/${bg_color}/g" "assets${color}${theme}${type}.svg"

@@ -72,7 +72,7 @@ for theme in '' '-blue' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-
       cp -rf "thumbnail.svg" "thumbnail${theme}${type}.svg"
       sed -i "s/#0860f2/${theme_color}/g" "thumbnail${theme}${type}.svg"
       sed -i "s/#ffffff/${menu_light}/g" "thumbnail${theme}${type}.svg"
-      sed -i "s/#333333/${menu_dark}/g" "thumbnail${theme}${type}.svg"
+      sed -i "s/#0f0f0f/${menu_dark}/g" "thumbnail${theme}${type}.svg"
       sed -i "s/thumbnail-light/thumbnail-light${theme}${type}/g" "thumbnail${theme}${type}.svg"
       sed -i "s/thumbnail-dark/thumbnail-dark${theme}${type}/g" "thumbnail${theme}${type}.svg"
     elif [[ "$theme" != '' ]]; then
