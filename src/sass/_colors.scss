@@ -119,7 +119,7 @@ $progress_color:                    $selected_bg_color;
 $drop_target_color:                 if($colorscheme == 'nord', $nord_color_orange, $theme_color_orange);
 
 // Headerbar colors
-$header_bg:                         if($variant == 'light', #ffffff, if($darker == 'true', #1e1e1e, #373737));
+$header_bg:                         if($variant == 'light', #ffffff, if($darker == 'true', #1e1e1e, #a3a3a3));
 $header_highlight:                  if($variant == 'dark', if($darker == 'true', #000000, #434343), #f5f5f5); // For metacity
 $header_fg:                         if($variant == 'light', #575757, #FDFDFD);
 
