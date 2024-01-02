@@ -86,12 +86,12 @@ for theme in '' '-blue' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-
       cp -rf "gtkrc${color}" "gtkrc${color}${theme}${type}"
       sed -i "s/#0860f2/${theme_color}/g" "gtkrc${color}${theme}${type}"
       if [[ "$color" == '-dark' ]]; then
-        sed -i "s/#242424/${base_color}/g" "gtkrc${color}${theme}${type}"
+        sed -i "s/#000000/${base_color}/g" "gtkrc${color}${theme}${type}"
         sed -i "s/#dedede/${text_color}/g" "gtkrc${color}${theme}${type}"
-        sed -i "s/#333333/${bg_color}/g" "gtkrc${color}${theme}${type}"
-        sed -i "s/#2a2a2a/${tooltip_bg_color}/g" "gtkrc${color}${theme}${type}"
+        sed -i "s/#0f0f0f/${bg_color}/g" "gtkrc${color}${theme}${type}"
+        sed -i "s/#060606/${tooltip_bg_color}/g" "gtkrc${color}${theme}${type}"
         sed -i "s/#565656/${insensitive_fg_color}/g" "gtkrc${color}${theme}${type}"
-        sed -i "s/#3b3b3b/${dark_sidebar_bg}/g" "gtkrc${color}${theme}${type}"
+        sed -i "s/#a7a7a7/${dark_sidebar_bg}/g" "gtkrc${color}${theme}${type}"
       else
         sed -i "s/#ffffff/${base_color}/g" "gtkrc${color}${theme}${type}"
         sed -i "s/#363636/${text_color}/g" "gtkrc${color}${theme}${type}"
