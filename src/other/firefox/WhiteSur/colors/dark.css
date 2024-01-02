@@ -8,7 +8,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
 	/* Browser area before a page starts loading */
-	--gnome-browser-before-load-background: #242424;
+	--gnome-browser-before-load-background: #000000;
 	--theme-primary-color: #315bef;
 	--theme-primary-hover-color: #5073f1;
 	--theme-primary-active-color: #6584f3;
@@ -16,7 +16,7 @@
 	/* Toolbars */
 	--gnome-toolbar-background: #373737;
 	--gnome-tabstoolbar-background: #1e1e1e;
-	--gnome-findbar-background: #333333;
+	--gnome-findbar-background: #0f0f0f;
 	--gnome-toolbar-color: #ffffff;
 	--gnome-toolbar-border-color: #070707;
 	--gnome-inactive-toolbar-color: rgba(255, 255, 255, 0.45);
@@ -24,7 +24,7 @@
 	--gnome-inactive-toolbar-border-color: #121212;
 
 	/* Sidebar */
-	--gnome-sidebar-background: #3b3b3b;
+	--gnome-sidebar-background: #a7a7a7;
 	--gnome-inactive-sidebar-background: #3f3f3f;
 
 	/* Popups */
@@ -158,7 +158,7 @@
 	--gnome-private-wordmark: #FBFBFE;
 
 	/* New private tab background */
-	--gnome-private-in-content-page-background: #242424;
+	--gnome-private-in-content-page-background: #000000;
 
 	/* Private browsing info box */
 	--gnome-private-text-primary-color: #FBFBFE;

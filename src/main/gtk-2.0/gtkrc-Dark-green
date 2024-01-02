@@ -1,6 +1,6 @@
 gtk-color-scheme = "base_color: #000000"
 gtk-color-scheme = "text_color: #dedede"
-gtk-color-scheme = "bg_color: #060606"
+gtk-color-scheme = "bg_color: #0f0f0f"
 gtk-color-scheme = "fg_color: #dedede"
 gtk-color-scheme = "tooltip_bg_color: #060606"
 gtk-color-scheme = "tooltip_fg_color: #dedede"
